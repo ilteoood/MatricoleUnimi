@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ilteoood.matricoleunimi"
+    android:versionCode="7"
+    android:versionName="1.5.8" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ilteoood.matricoleunimi.MainActivity"
+            android:icon="@drawable/trovadamatricola"
+            android:label="@string/main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.Launcher" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ilteoood.matricoleunimi.TrovaDaNome"
+            android:icon="@drawable/trovadanominativo"
+            android:label="@string/title_activity_trova_da_nome"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ilteoood.matricoleunimi.Launcher"
+            android:label="@string/title_activity_launcher"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ilteoood.matricoleunimi.FAQ"
+            android:icon="@drawable/faq"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

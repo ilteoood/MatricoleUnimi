@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:29
+-keep class com.ilteoood.matricoleunimi.AboutMe { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.ilteoood.matricoleunimi.FAQ { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.ilteoood.matricoleunimi.Launcher { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.ilteoood.matricoleunimi.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.ilteoood.matricoleunimi.TrovaDaNome { <init>(...); }
+
